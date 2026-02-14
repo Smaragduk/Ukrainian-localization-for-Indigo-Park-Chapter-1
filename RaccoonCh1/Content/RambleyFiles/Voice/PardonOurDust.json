@@ -1,0 +1,606 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
+  "NameMap": [
+    "BINKA",
+    "PardonOurDust",
+    "/Game/RambleyFiles/Voice/PardonOurDust",
+    "/Script/CoreUObject",
+    "Package",
+    "/Script/Engine",
+    "Class",
+    "SoundWave",
+    "/Game/MenuSystemPro/ExampleContent/Sounds/SoundClass/Master",
+    "SoundClass",
+    "Master",
+    "Default__SoundWave"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "DATA_RESOURCES",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 83,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 44,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 6,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 41,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 78,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": [],
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bManualWordWrap",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bSingleLine",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+          "Name": "NumChannels",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 2
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+          "Name": "SampleRate",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 48000
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "StructProperty",
+          "Name": "Subtitles",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "SubtitleCue",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                  "Flags": 0,
+                  "HistoryType": "Base",
+                  "Namespace": "",
+                  "CultureInvariantString": "Pardon our dust, buddy! Looks like the park is going through some… renovations.",
+                  "SourceFmt": null,
+                  "Arguments": null,
+                  "ArgumentsData": null,
+                  "TransformType": "ToLower",
+                  "SourceValue": null,
+                  "FormatOptions": null,
+                  "TargetCulture": null,
+                  "Name": "Text",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "FB1E04CF4ECA2844863556B33D35C601"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                  "Value": "+0",
+                  "Name": "Time",
+                  "ArrayIndex": 0,
+                  "IsZero": true,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension"
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "SubtitleCue",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                  "Flags": 0,
+                  "HistoryType": "Base",
+                  "Namespace": "",
+                  "CultureInvariantString": "For the inconvenience,",
+                  "SourceFmt": null,
+                  "Arguments": null,
+                  "ArgumentsData": null,
+                  "TransformType": "ToLower",
+                  "SourceValue": null,
+                  "FormatOptions": null,
+                  "TargetCulture": null,
+                  "Name": "Text",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "2DD8CEC14CF82E08ADD968BB5B191546"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                  "Value": 5.797999858856201,
+                  "Name": "Time",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension"
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "SubtitleCue",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "2",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                  "Flags": 0,
+                  "HistoryType": "Base",
+                  "Namespace": "",
+                  "CultureInvariantString": "your Rambley Tuesday discount will be (free) PERCENT OFF!",
+                  "SourceFmt": null,
+                  "Arguments": null,
+                  "ArgumentsData": null,
+                  "TransformType": "ToLower",
+                  "SourceValue": null,
+                  "FormatOptions": null,
+                  "TargetCulture": null,
+                  "Name": "Text",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "FF61318046D5B6B8DFA15FB0C6A502D8"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                  "Value": 6.96999979019165,
+                  "Name": "Time",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension"
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "SubtitleCue",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "3",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                  "Flags": 0,
+                  "HistoryType": "Base",
+                  "Namespace": "",
+                  "CultureInvariantString": "Why not celebrate this great deal with a ride on my railroad?",
+                  "SourceFmt": null,
+                  "Arguments": null,
+                  "ArgumentsData": null,
+                  "TransformType": "ToLower",
+                  "SourceValue": null,
+                  "FormatOptions": null,
+                  "TargetCulture": null,
+                  "Name": "Text",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "A28BCB3B4ACA94A7D814E28732939046"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                  "Value": 11.020000457763672,
+                  "Name": "Time",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension"
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "SubtitleCue",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "4",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                  "Flags": 0,
+                  "HistoryType": "Base",
+                  "Namespace": "",
+                  "CultureInvariantString": "To test your sleuthing skills, I’ll let you find this one all by yourself!",
+                  "SourceFmt": null,
+                  "Arguments": null,
+                  "ArgumentsData": null,
+                  "TransformType": "ToLower",
+                  "SourceValue": null,
+                  "FormatOptions": null,
+                  "TargetCulture": null,
+                  "Name": "Text",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "E25866E644B5FFBBF0B348A0AF334725"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                  "Value": 13.918999671936035,
+                  "Name": "Time",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "SoundClassObject",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -4
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 18.04166603088379,
+          "Name": "Duration",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 866000.0,
+          "Name": "TotalSamples",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "PardonOurDust",
+      "OuterIndex": 0,
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -5,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 1805,
+      "SerialOffset": 1026,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": true,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -5
+      ],
+      "CreateBeforeCreateDependencies": [
+        -4
+      ],
+      "Extras": "AQAAACiDTlFPn/BIkPebS48g95sEAAAAAAAAAAAAAAABAAAAAAAAAEFCRVUBAgAAgLsAANA2DQCIBwEAXA0JAMQBAQDEABgFRAYgBnQGjAaMBqgGpAXgBYAGbAZ4BRwF2AVYBtQGGAZQB7AGTAasBLQF4AW4BpgFAAZEBmwGxAXoBEAFcAT0AZgDfAQ0BZQFlAV0BWwF3ASQBOwDIALgAwQFwASUBaQGEAY8BgQE0ARQBTQEdAWIBcgFVAaYBVgD8AQ8BsgFTAYcBQQGWAYgBrgFaAX8BfwFnAZsBugF6AbcBjQGWAasBugG4AbIBUAFnAVwBegFMAVkBOgBEAH8ABwBmAEoASwBGAEYATABmAHwAjwBLAEkAVgBqAHcAewBAAQYBegF6AU8BkAGtAXQBewFmAaEBRAGfAZ0BgwF3AWABWgFRAXkBegGhAYgBbQD5AEcAaABcAIYAUgASABIAHQAXAK0BBAFVAbwBQgGpANoBXQGtAT8A0gFEAaIBcAFrAVQBlAGDAZkBeQF+AVcBjwGkAUMBhwH5ARUBcQFxARsBVAFrAZIBEgFWAZ4BhwGWAY0BjQGjATwA2wFkAaYBtwGjAYYBgAG9AVEBkwGkATYBXgFTAY4BpgGCAQ0BZQGCAZcBdAEMAX8BVAEoAV8BTgGZAZIBogFkAR4ASwBeAAAAvgBXAAMBXAGxAXEBWwF7AUYBpAFBAUUBRADyABYANQAcABcAPgEWAZkBqQGjAfABngGcAaYBnwGdAYkBqgGXAYAB3wGCAY0BnAGgAaQBvwEGAMoASwB4AEAAgwC1AFIAUgAaAKwA3AChAMEBQQGNAZMBlAGrAa8BBgGSAfwBlgGkAa4BfgGWAN8BfQFCAb8A+AEDAbkBbwFmARcBagFYAYYBGwC3AT0BUwG/AXEBCQG+AXIBXAGeARoBBgFTAa8BvgFVAZoBiAG1AWMBuQFhAXMBRwGgAZABpwFgARIBagGDAZ0BewFdAVsBUAFhATYAYQAcAB4AEgAVALABPQF+AR4BSwGnAY4BtAGRAY4BjAG9AXABtwFGAZkBvQFmARcBRQG6AUsBpAGqAQsBVQGnAYsBlQG/AX4BvwE1AR0BWgFuATEA2gEQAVkBowGUAW8BYAGvAQsBTAGPAY0BsgFMAZkBkwFlARABRgFoAXwBlAGRAYoB4QGEAWMBYgFRAZoBhQFtAWsBAgFeAWIBsgGWAYEBNAE5AVwBowGUAZoBlAGOAYoBxwHPAfYBYwG2AZQBiQF6AS8BVAGvAZ4BogFWAQ0A1ABUABIAEwApAMAAKQDAAABAAAAAQAAAGD+AwBg/gMAAQAAAAIAAABw/gMAcP4DAAEAAAADAAAA6AwBAOgMAQA="
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -8,
+  "DataResourceVersion": "Initial",
+  "DataResources": [
+    {
+      "$type": "UAssetAPI.UnrealTypes.FObjectDataResource, UAssetAPI",
+      "Flags": "None",
+      "SerialOffset": 817,
+      "DuplicateSerialOffset": -1,
+      "SerialSize": 932,
+      "RawSize": 932,
+      "OuterIndex": 0,
+      "LegacyBulkDataFlags": 64
+    },
+    {
+      "$type": "UAssetAPI.UnrealTypes.FObjectDataResource, UAssetAPI",
+      "Flags": "None",
+      "SerialOffset": 0,
+      "DuplicateSerialOffset": -1,
+      "SerialSize": 261728,
+      "RawSize": 261728,
+      "OuterIndex": 0,
+      "LegacyBulkDataFlags": 66817
+    },
+    {
+      "$type": "UAssetAPI.UnrealTypes.FObjectDataResource, UAssetAPI",
+      "Flags": "None",
+      "SerialOffset": 261728,
+      "DuplicateSerialOffset": -1,
+      "SerialSize": 261744,
+      "RawSize": 261744,
+      "OuterIndex": 0,
+      "LegacyBulkDataFlags": 66817
+    },
+    {
+      "$type": "UAssetAPI.UnrealTypes.FObjectDataResource, UAssetAPI",
+      "Flags": "None",
+      "SerialOffset": 523472,
+      "DuplicateSerialOffset": -1,
+      "SerialSize": 68840,
+      "RawSize": 68840,
+      "OuterIndex": 0,
+      "LegacyBulkDataFlags": 66817
+    }
+  ],
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SoundWave",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/MenuSystemPro/ExampleContent/Sounds/SoundClass/Master",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Master",
+      "OuterIndex": -2,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SoundClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SoundWave",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SoundWave",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 12
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/RambleyFiles/Voice/PardonOurDust",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 566,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 3,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": 842,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_Cooked, PKG_UnversionedProperties, PKG_RequiresLocalizationGather, PKG_FilterEditorOnly",
+  "HasUnversionedProperties": true,
+  "IsFilterEditorOnly": true
+}
