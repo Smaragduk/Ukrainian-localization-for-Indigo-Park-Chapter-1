@@ -1,0 +1,1423 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
+  "NameMap": [
+    "ST_Menu",
+    "/Game/MenuSystemPro/ExampleContent/Text/Menu/ST_Menu",
+    "/Script/CoreUObject",
+    "Package",
+    "/Script/Engine",
+    "Class",
+    "StringTable",
+    "Default__StringTable"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "DATA_RESOURCES",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 83,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 44,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 6,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 41,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 78,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": [],
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.StringTableExport, UAssetAPI",
+      "Table": {
+        "TableNamespace": "ST_Menu",
+        "Value": [
+          [
+            "MainMenu_Continue",
+            "Continue"
+          ],
+          [
+            "MainMenu_NewGame",
+            "New Game"
+          ],
+          [
+            "MainMenu_Options",
+            "Options"
+          ],
+          [
+            "MainMenu_Quit",
+            "Quit"
+          ],
+          [
+            "OptionsMenu_Gameplay",
+            "Gameplay"
+          ],
+          [
+            "OptionsMenu_Audio",
+            "Audio"
+          ],
+          [
+            "OptionsMenu_Display",
+            "Display"
+          ],
+          [
+            "OptionsMenu_Graphics",
+            "Graphics"
+          ],
+          [
+            "GameplaySettings_Game",
+            "Game"
+          ],
+          [
+            "GameplaySettings_Difficulty",
+            "Difficulty"
+          ],
+          [
+            "GameplaySettings_Language",
+            "Language"
+          ],
+          [
+            "GameplaySettings_Subtitles",
+            "Subtitles"
+          ],
+          [
+            "GameplaySettings_Difficulty_Subtext",
+            "Set the gameplay difficulty. With a higher difficulty <h>enemies will be tougher and important items more rare.</> Players that are new to this genre should start out on <h>Easy</> Difficulty.\r\n\r\n<b>Default Value: Medium</>"
+          ],
+          [
+            "GameplaySettings_Language_Subtext",
+            "Set the language that <h>all text</> will be displayed in throughout the Game.\r\n\r\n<b>Default Value: English</>"
+          ],
+          [
+            "GameplaySettings_Subtitles_Subtext",
+            "Set if Subtitles are displayed <h>whenever a character speaks.</> They can be used to aid in understanding the game's story and dialogue, especially for players who may have difficulty hearing or understanding spoken language.\r\n\r\n<b>Default Value: Off</>"
+          ],
+          [
+            "Settings_Apply",
+            "Apply"
+          ],
+          [
+            "DecisionDialog_ExitG",
+            "Exit Game "
+          ],
+          [
+            "Settings_Reset",
+            "Reset settings"
+          ],
+          [
+            "AudioSettings_Audio",
+            "Audio"
+          ],
+          [
+            "AudioSettings_MasterVolume",
+            "Master Volume"
+          ],
+          [
+            "AudioSettings_MusicVolume",
+            "Music Volume"
+          ],
+          [
+            "AudioSettings_SFXVolume",
+            "SFX Volume"
+          ],
+          [
+            "AudioSettings_VoiceVolume",
+            "Voice Volume"
+          ],
+          [
+            "AudioSettings_MasterVolume_Subtext",
+            "Adjust the volume of <h>all music, non-player voices and sound effects</> played throughout the game.\r\n\r\n<b>Default Value: 100</>"
+          ],
+          [
+            "AudioSettings_MusicVolume_Subtext",
+            "Adjust the volume of <h>all music</> played throughout the game.\r\n\r\n<b>Default Value: 100</>"
+          ],
+          [
+            "AudioSettings_SFXVolume_Subtext",
+            "Adjust the volume of <h>all sound effects</> played throughout the game.\r\n\r\n<b>Default Value: 100</>"
+          ],
+          [
+            "AudioSettings_VoiceVolume_Subtext",
+            "Adjust the volume of <h>all non-player voices</> played throughout the game.\r\n\r\n<b>Default Value: 100</>"
+          ],
+          [
+            "DisplaySettings_Display",
+            "Display"
+          ],
+          [
+            "DisplaySettings_WindowMode",
+            "Window Mode"
+          ],
+          [
+            "DisplaySettings_DisplayResolution",
+            "Display Resolution"
+          ],
+          [
+            "DisplaySettings_LockFPS",
+            "Lock FPS"
+          ],
+          [
+            "DisplaySettings_ShowFPSCounter",
+            "Show FPS counter"
+          ],
+          [
+            "DisplaySettings_VSync",
+            "VSync"
+          ],
+          [
+            "DisplaySettings_ResolutionScale",
+            "Resolution Scale"
+          ],
+          [
+            "DisplaySettings_WindowMode_Subtext",
+            "Select the display mode for the game. <h>Fullscreen offers the best performance and feature compatibility</> with features such as HDR. Borderless will take up the entire screen, but allow you to change between different applications without the need to minimize the game.\r\n\r\n<b>Default Value: Fullscreen</>"
+          ],
+          [
+            "DisplaySettings_DisplayResolution_Subtext",
+            "Set this to the display resolution of your Display. Try a lower resolution if you experience performance issues. <h>Borderless Window Mode</> will always use the highest resolution supported by your Display."
+          ],
+          [
+            "DisplaySettings_LockFPS_Subtext",
+            "Locks the <h>frames per second (FPS)</> to a fixed value. \r\nIt's advised to lock the FPS, if the frame rate is highly variable \r\nor exceeds your display's refresh rate.\r\n\r\n<b>Default Value: Unlocked</>"
+          ],
+          [
+            "DisplaySettings_ShowFPSCounter_Subtext",
+            "Enables the frames per second (FPS) counter"
+          ],
+          [
+            "DisplaySettings_VSync_Subtext",
+            "VSync, or Vertical Synchronization, is a graphics option that synchronizes the game's frame rate with the refresh rate of the display. <h>This can help prevent screen tearing,</> a visual artifact where parts of the screen appear to be out of sync with each other, but can also cause increased input lag.\r\n\r\n<b>Default Value: Off</>"
+          ],
+          [
+            "DisplaySettings_ResolutionScale_Subtext",
+            "Set the resolution scaling to modify the <h>render resolution</>. A resolution scale of 50 would halve the render resolution in relation to the actual display resolution. The minimum resolution scale can vary for different display resolutions."
+          ],
+          [
+            "GraphicsSettings_Graphics",
+            "Graphics"
+          ],
+          [
+            "GraphicsSettings_QualityPreset",
+            "Quality Preset"
+          ],
+          [
+            "GraphicsSettings_Textures",
+            "Textures"
+          ],
+          [
+            "GraphicsSettings_Effects",
+            "Effects"
+          ],
+          [
+            "GraphicsSettings_Foliage",
+            "Foliage"
+          ],
+          [
+            "GraphicsSettings_ViewDistance",
+            "View Distance"
+          ],
+          [
+            "GraphicsSettings_AntiAliasingMethod",
+            "Anti Aliasing Method"
+          ],
+          [
+            "GraphicsSettings_AntiAliasingQuality",
+            "Anti Aliasing Quality"
+          ],
+          [
+            "GraphicsSettings_PostProcessing",
+            "Post Processing"
+          ],
+          [
+            "GraphicsSettings_Shadows",
+            "Shadows"
+          ],
+          [
+            "GraphicsSettings_MotionBlur",
+            "Motion Blur"
+          ],
+          [
+            "GraphicsSettings_LensFlares",
+            "Lens Flares"
+          ],
+          [
+            "GraphicsSettings_SSR",
+            "Screen Space Reflections"
+          ],
+          [
+            "GraphicsSettings_Bloom",
+            "Bloom"
+          ],
+          [
+            "GraphicsSettings_AmbientOcclusion",
+            "Ambient Occlusion"
+          ],
+          [
+            "GraphicsSettings_QualityPreset_Subtext",
+            "Adjust the quality of <h>all graphics settings.</> This option is automatically changed to custom upon changing any individual settings."
+          ],
+          [
+            "GraphicsSettings_Textures_Subtext",
+            "Texture Quality affects the <h>level of detail and resolution of textures applied to the surfaces of objects</> in a game's environment. This can include characters, environments, and objects such as weapons or vehicles."
+          ],
+          [
+            "GraphicsSettings_Effects_Subtext",
+            "Adjust the <h>quality of visual effects,</> e.g. reflections and the material fidelity."
+          ],
+          [
+            "GraphicsSettings_Foliage_Subtext",
+            "Foliage Quality affects the <h>level of detail and complexity of vegetation and foliage.</> This can include trees, bushes, grass, and other plants. Higher Foliage Quality settings can result in more realistic and detailed vegetation, but are also more demanding on your hardware."
+          ],
+          [
+            "GraphicsSettings_ViewDistance_Subtext",
+            "View Distance affects the <h>distance at which objects and elements in a game's environment are rendered and visible to the player.</> This can include terrain, buildings, and other objects in the game world."
+          ],
+          [
+            "GraphicsSettings_AntiAliasingMethod_Subtext",
+            "Set the method of Anti Aliasing (AA). AA is a graphics option that <h>smooths out jagged edges and reduces visual artifacts</> in a game's visuals by e.g. averaging out pixel colors."
+          ],
+          [
+            "GraphicsSettings_AntiAliasingQuality_Subtext",
+            "Set the quality used for Anti Aliasing (AA). AA is a graphics option that <h>smooths out jagged edges and reduces visual artifacts</> in a game's visuals by e.g. averaging out pixel colors."
+          ],
+          [
+            "GraphicsSettings_PostProcessing_Subtext",
+            "Post Processing Quality affects the <h>quality and complexity of post-processing effects</> applied to a game's visuals after the initial rendering. This includes effects such as motion blur, lens flares, bloom, screen space reflections and ambient occlusion."
+          ],
+          [
+            "GraphicsSettings_Shadows_Subtext",
+            "Shadow Quality affects the <h>detail and complexity of shadows</> in a game's environment. This can include shadows cast by characters, objects, and the environment itself."
+          ],
+          [
+            "GraphicsSettings_MotionBlur_Subtext",
+            "Motion Blur simulates the <h>blur effect that occurs when objects move quickly across a screen,</> such as during fast camera movements or character animations. This can give the game's visuals a more cinematic and immersive feel. A number of indivuals may experience motion sickness or general discomfort when this is enabled."
+          ],
+          [
+            "GraphicsSettings_LensFlares_Subtext",
+            "Lens Flare Quality affects the appearance of lens flares, which are visual artifacts that occur when bright light sources are captured by a camera lens. This can include the <h>sun, headlights, and other light sources.</>"
+          ],
+          [
+            "GraphicsSettings_Bloom_Subtext",
+            "Enabling Bloom <h>adds a soft glow to bright areas, such as the sun or other light sources.</> This can give the game's environment and characters a more ethereal and cinematic appearance."
+          ],
+          [
+            "GraphicsSettings_SSR_Subtext",
+            "Enabling Screen Space Reflections affects the quality and complexity of <h>real-time reflections</> in a game's environment. This can include reflections of characters, objects, and the environment itself in reflective surfaces such as water or shiny surfaces. "
+          ],
+          [
+            "GraphicsSettings_AmbientOcclusion_Subtext",
+            "Ambient Occlusion adds depth and realism to a game's visuals by simulating how light interacts with objects in a scene. <h>It darkens areas where objects are close together,</> simulating shadows and crevices that occur naturally in the environment."
+          ],
+          [
+            "GameplaySettings_Difficulty_Easy",
+            "Easy"
+          ],
+          [
+            "GameplaySettings_Difficulty_Medium",
+            "Medium"
+          ],
+          [
+            "GameplaySettings_Difficulty_Hard",
+            "Hard"
+          ],
+          [
+            "GameplaySettings_Difficulty_Expert",
+            "Expert"
+          ],
+          [
+            "Settings_On",
+            "On"
+          ],
+          [
+            "Settings_Off",
+            "Off"
+          ],
+          [
+            "DisplaySettings_WindowMode_FullScreen",
+            "Full Screen"
+          ],
+          [
+            "DisplaySettings_WindowMode_Borderless",
+            "Borderless"
+          ],
+          [
+            "DisplaySettings_WindowMode_Windowed",
+            "Windowed"
+          ],
+          [
+            "DisplaySettings_LockFPS_Unlocked",
+            "Unlocked"
+          ],
+          [
+            "GraphicsSettings_AntiAliasingMethod_None",
+            "None"
+          ],
+          [
+            "GraphicsSettings_Setting_Low",
+            "Low"
+          ],
+          [
+            "GraphicsSettings_Setting_Medium",
+            "Medium"
+          ],
+          [
+            "GraphicsSettings_Setting_High",
+            "High"
+          ],
+          [
+            "GraphicsSettings_Setting_Epic",
+            "Epic"
+          ],
+          [
+            "GraphicsSettings_Setting_Custom",
+            "Custom"
+          ],
+          [
+            "GraphicsSettings_ViewDistance_Near",
+            "Near"
+          ],
+          [
+            "GraphicsSettings_ViewDistance_Far",
+            "Far"
+          ],
+          [
+            "DisplaySettings_Brightness",
+            "Brightness"
+          ],
+          [
+            "DisplaySettings_Brightness_Subtext",
+            "<h>Adjusts the luminance intensity</> of the image's mid-tones to accurately reproduce colors. Increasing this value too much will result in the image being washed-out. Decreasing this value too much will result in the image being too dark.\r\n\r\n<b>Default Value: 100</>"
+          ],
+          [
+            "GraphicsSettings_Title",
+            "Graphics"
+          ],
+          [
+            "GraphicsSettings_Section_Quality",
+            "Quality"
+          ],
+          [
+            "GraphicsSettings_Section_Advanced",
+            "Advanced"
+          ],
+          [
+            "GamePlaySettings_Title",
+            "Game"
+          ],
+          [
+            "DisplaySettings_Title",
+            "Display"
+          ],
+          [
+            "ControlsSettings_Title",
+            "Controls"
+          ],
+          [
+            "ControlsSettings_KeyBindings",
+            "Key Bindings"
+          ],
+          [
+            "ControlsSettings_GamePadSettings",
+            "Gamepad Bindings"
+          ],
+          [
+            "AudioSettings_Title",
+            "Audio"
+          ],
+          [
+            "ControlsSettings_InvertX",
+            "Invert Horizontal Axis"
+          ],
+          [
+            "ControlsSettings_InvertY",
+            "Invert Vertical Axis"
+          ],
+          [
+            "ControlsSettings_XSensitivity",
+            "Horizontal Axis Sensitivity"
+          ],
+          [
+            "ControlsSettings_YSensitivity",
+            "Vertical Axis Sensitivity"
+          ],
+          [
+            "ControlsSettings_InvertX_Subtext",
+            "Invert the <h>Horizontal (X) Axis</> of the camera.\r\n\r\n<b>Default Value: Off</>"
+          ],
+          [
+            "ControlsSettings_InvertY_Subtext",
+            "Invert the <h>Vertical (Y) Axis</> of the camera.\r\n\r\n<b>Default Value: Off</>"
+          ],
+          [
+            "ControlsSettings_XSensitivity_Subtext",
+            "Set <h>Horizontal (X) Axis Sensitivity</> of the camera.\r\n\r\n<b>Default Value: 1.0</>"
+          ],
+          [
+            "ControlsSettings_YSensitivity_Subtext",
+            "Set <h>Vertical (Y) Axis Sensitivity</> of the camera.\r\n\r\n<b>Default Value: 1.0</>"
+          ],
+          [
+            "DisplaySettings_Protanope",
+            "Protanope"
+          ],
+          [
+            "ControlsSettings_Global",
+            "Global"
+          ],
+          [
+            "ControlsSettings_Vibration_SubText",
+            "Toggle <h>vibration/rumble features</> of the connected Controller.\r\n\r\n<b>Default Value: On</>"
+          ],
+          [
+            "ControlsSettings_Vibration",
+            "Vibration"
+          ],
+          [
+            "ControlsSettings_Bindings_MoveForward",
+            "Move Forward"
+          ],
+          [
+            "ControlsSettings_Bindings_MoveForward_Subtext",
+            "Key/Button to <h>move forward.</>"
+          ],
+          [
+            "ControlsSettings_Bindings_MoveBackward",
+            "Move Backward"
+          ],
+          [
+            "ControlsSettings_Bindings_MoveBackward_Subtext",
+            "Key/Button to <h>move backward.</>"
+          ],
+          [
+            "ControlsSettings_Bindings_MoveLeft",
+            "Move Left"
+          ],
+          [
+            "ControlsSettings_Bindings_MoveLeft_Subtext",
+            "Key/Button to <h>move left.</>"
+          ],
+          [
+            "ControlsSettings_Bindings_MoveRight",
+            "Move Right"
+          ],
+          [
+            "ControlsSettings_Bindings_MoveRight_Subtext",
+            "Key/Button to <h>move right.</>"
+          ],
+          [
+            "ControlsSettings_Bindings_Jump",
+            "Jump"
+          ],
+          [
+            "ControlsSettings_Bindings_Jump_Subtext",
+            "Key/Button to <h>jump.</>"
+          ],
+          [
+            "GraphicsSettings_Benchmark",
+            "Benchmark"
+          ],
+          [
+            "ControlsSettings_Bindings_None",
+            "None"
+          ],
+          [
+            "ControlsSettings_Bindings_Crouch",
+            "Crouch"
+          ],
+          [
+            "MainMenu_Loading",
+            "Loading..."
+          ],
+          [
+            "DecisionDialog_AreYouSure",
+            "Are you sure you want to quit the game?"
+          ],
+          [
+            "DecisionDialog_Yes",
+            "Yes"
+          ],
+          [
+            "DecisionDialog_No",
+            "No"
+          ],
+          [
+            "DecisionDialog_ApplyChangedSettings",
+            "Apply changed settings?"
+          ],
+          [
+            "Credits_Title",
+            "Credits"
+          ],
+          [
+            "IngameMenu_Pause",
+            "Pause"
+          ],
+          [
+            "IngameMenu_Resume",
+            "Resume"
+          ],
+          [
+            "IngameMenu_Save",
+            "Save"
+          ],
+          [
+            "IngameMenu_Load",
+            "Load"
+          ],
+          [
+            "ControlsSettings_Bindings_Crouch_Subtext",
+            "Key/Button to <h>crouch.</>"
+          ],
+          [
+            "IngameMenu_MainMenu",
+            "Back to main menu"
+          ],
+          [
+            "Intro_PressAnyKey",
+            "PRESS ANY KEY TO START"
+          ],
+          [
+            "Settings_Back",
+            "Back "
+          ],
+          [
+            "DisplaySettings_FOV",
+            "Field of View"
+          ],
+          [
+            "DisplaySettings_FOV_Subtext",
+            "Set <h>Horizontal Field of View angle (in degrees)</> of the Player Camera. Common values range from 60 to 120.\r\n\r\n<b>Default Value: 90</>"
+          ],
+          [
+            "GraphicsSettings_GlobalIllumination",
+            "Global Illumination"
+          ],
+          [
+            "GraphicsSettings_ResolutionScaling",
+            "Resolution Scaling"
+          ],
+          [
+            "GraphicsSettings_DLSS",
+            "Nvidia DLSS"
+          ],
+          [
+            "GraphicsSettings_DLSS_Quality0",
+            "Performance"
+          ],
+          [
+            "GraphicsSettings_DLSS_Quality1",
+            "Balanced"
+          ],
+          [
+            "GraphicsSettings_DLSS_Quality2",
+            "Quality"
+          ],
+          [
+            "GraphicsSettings_DLSS_Quality3",
+            "Ultra Performance"
+          ],
+          [
+            "GraphicsSettings_DLSS_Quality4",
+            "Ultra Quality"
+          ],
+          [
+            "GraphicsSettings_Reflections",
+            "Reflections"
+          ],
+          [
+            "GraphicsSettings_Reflections_Subtext",
+            "Reflections Quality affects the <h>level of detail and complexity of real-time reflections</> in the game environment. This can include reflections of characters, objects, and the environment itself in reflective surfaces such as water, mirrors, or other reflective surfaces."
+          ],
+          [
+            "GraphicsSettings_TemporalUpsampling_Subtext",
+            "Temporal Anti Aliasing Upsampling (TAAU) <h>reconstructs higher-resolution images from lower-resolution frames,</> resulting in smoother and more detailed visuals without requiring additional processing power."
+          ],
+          [
+            "GraphicsSettings_GlobalIllumination_Subtext",
+            "Global Illumination <h>simulates the way light bounces and interacts with surfaces</> in a realistic manner, resulting in more accurate and natural-looking lighting in the game environment."
+          ],
+          [
+            "GraphicsSettings_TemporalUpsampling",
+            "Temporal Anti Aliasing Upsampling"
+          ],
+          [
+            "DisplaySettings_Deuteranope",
+            "Deuteranope"
+          ],
+          [
+            "GraphicsSettings_Setting_VeryLow",
+            "Very Low"
+          ],
+          [
+            "GraphicsSettings_Setting_Extreme",
+            "Extreme"
+          ],
+          [
+            "GraphicsSettings_UpscaleQuality_Subtext",
+            "Controls the quality in which <h>resolution scale</> scales the 3D rendering."
+          ],
+          [
+            "GraphicsSettings_UpscaleQuality",
+            "Upscale Quality"
+          ],
+          [
+            "GraphicsSettings_DLSS_Subtext",
+            "Toggles NVIDIA DLSS (Deep Learning Super Sampling). Uses a temporal upscaling algorithm to render highly detailed images using fewer pixels, boosting your frame rates so you can maximize your graphics settings and output resolution. Quality is controlled by altering the resolution scale (100=DLAA). \r\n<h>DLSS requires an NVIDIA RTX graphics card.</>"
+          ],
+          [
+            "Settings_Video",
+            "Video"
+          ],
+          [
+            "Settings_General",
+            "General"
+          ],
+          [
+            "Settings",
+            "Settings"
+          ],
+          [
+            "Settings_Multiplayer",
+            "Multiplayer"
+          ],
+          [
+            "AudioSettings_VoiceChat",
+            "Voice Chat"
+          ],
+          [
+            "MultiplayerSettings_ShowPlayerNames",
+            "Show Player Names"
+          ],
+          [
+            "MultiplayerSettings_PlayerName",
+            "Player Name"
+          ],
+          [
+            "MultiplayerSettings_PlayerName_SubText",
+            "The name that other players will see when you join a multiplayer session. Choosing an inappropriate name may have <h>permanent consequences</> for your account's multiplayer access."
+          ],
+          [
+            "MultiplayerSettings_ShowPlayerNames_SubText",
+            "Display the player name <h>above the character's head.</> This can be turned off to create a more immersive experience at the cost of more difficult team communication.\r\n\r\n<b>Default Value: On</>"
+          ],
+          [
+            "MainMenu_Play",
+            "Play"
+          ],
+          [
+            "MainMenu_Multiplayer",
+            "Multiplayer"
+          ],
+          [
+            "MultiplayerMenu_HostGame",
+            "Host Game"
+          ],
+          [
+            "MultiplayerMenu_JoinGame",
+            "Join Game"
+          ],
+          [
+            "MultiplayerMenu_ServerBrowser",
+            "Server Browser"
+          ],
+          [
+            "SaveGame_LoadGameHeader",
+            "Load Game"
+          ],
+          [
+            "SaveGame_SaveGameHeader",
+            "Save Game"
+          ],
+          [
+            "SaveGame_NewGameHeader",
+            "Create New Game"
+          ],
+          [
+            "SaveGame_PreviewHeader",
+            "Preview"
+          ],
+          [
+            "SaveGame_SlotHeader",
+            "Slot"
+          ],
+          [
+            "SaveGame_AreaHeader",
+            "Area"
+          ],
+          [
+            "SaveGame_SavesHeader",
+            "Saves"
+          ],
+          [
+            "SaveGame_PlayTimeHeader",
+            "Play Time"
+          ],
+          [
+            "SaveGame_LastSavedHeader",
+            "Last Saved"
+          ],
+          [
+            "ServerBrowser_PreviewHeader",
+            "Preview"
+          ],
+          [
+            "ServerBrowser_NameHeader",
+            "Name"
+          ],
+          [
+            "ServerBrowser_PlayerCountHeader",
+            "Players"
+          ],
+          [
+            "ServerBrowser_TitleHeader",
+            "Server Browser"
+          ],
+          [
+            "AudioSettings_VoiceInput",
+            "Voice Chat Input"
+          ],
+          [
+            "AudioSettings_VoiceOutput",
+            "Voice Chat Output"
+          ],
+          [
+            "AudioSettings_VoiceOutput_SubText",
+            "Adjust the volume of <h>other players when they use voice chat</> in multiplayer sessions.\r\n\r\n<b>Default Value: 100</>"
+          ],
+          [
+            "AudioSettings_VoiceInput_SubText",
+            "Adjust the volume of <h>your microphone when using voice chat</> in multiplayer sessions.\r\n\r\n<b>Default Value: 100</>"
+          ],
+          [
+            "ControlsSettings_Bindings_ClearInput",
+            "Clear Input"
+          ],
+          [
+            "IngameSettings_General",
+            "General"
+          ],
+          [
+            "IngameSettings_Documents",
+            "Documents"
+          ],
+          [
+            "IngameSettings_Inventory",
+            "Inventory"
+          ],
+          [
+            "MainMenu_Extras",
+            "Extras"
+          ],
+          [
+            "MultiplayerMenu_LocalMultiplayer",
+            "Local Multiplayer"
+          ],
+          [
+            "ControlsSettings_ControllerType",
+            "Controller Type"
+          ],
+          [
+            "ControlsSettings_Bindings_Run",
+            "Run"
+          ],
+          [
+            "ControlsSettings_Bindings_Pause",
+            "Pause"
+          ],
+          [
+            "ControlsSettings_Bindings_Run_Subtext",
+            "Key/Button to <h>run.</>"
+          ],
+          [
+            "ControlsSettings_Bindings_Pause_Subtext",
+            "Key/Button to <h>pause the game.</>"
+          ],
+          [
+            "DisplaySettings_HDR",
+            "HDR"
+          ],
+          [
+            "DisplaySettings_HDR_SubText",
+            "Enable this to use <h>High Dynamic Range (HDR)</> for color output. HDR requires a screen that supports HDR and the window mode has to be set to Fullscreen. HDR attempts to simulate a more natural looking image and allows for higher contrast & wider color gamut. Users without HDR supported Displays should turn all HDR options off or set them to their default value.\r\n\r\n<b>Default Value: Off</>"
+          ],
+          [
+            "DisplaySettings_HDRDisplayProfile",
+            "HDR Display Profile"
+          ],
+          [
+            "DisplaySettings_HDRDisplayProfile_SubText",
+            "Configure the brightness in <h>NITS and the Color Profile</> that most closely match your Display specifications. All users without a HDR supported Display should set this to sRGB.\r\n\r\n<b>Default Value: sRGB</>"
+          ],
+          [
+            "DisplaySettings_HDRColorSpace",
+            "HDR Color Space"
+          ],
+          [
+            "DisplaySettings_HDRUI",
+            "HDR UI"
+          ],
+          [
+            "DisplaySettings_HDRUIBrightness",
+            "HDR UI Brightness"
+          ],
+          [
+            "DisplaySettings_HDRUIBrightness_SubText",
+            "Adjust the brightness of UI elements when HDR is enabled. <h>Requires HDR UI to be enabled.</>\r\n\r\n<b>Default Value: 2.0</>"
+          ],
+          [
+            "DIsplaySettings_HDRUI_SubText",
+            "Enable HDR UI Composition Mode. <h>Corrects washed out UI when HDR is enabled.</>\r\n\r\n<b>Default Value: Off</>"
+          ],
+          [
+            "DisplaySettings_Performance",
+            "Performance"
+          ],
+          [
+            "DisplaySettings_HDRColorSpace_SubText",
+            "Choose the Color Space that all colors are mapped into. Most HDR users will have the best results with <h>Rec.2020</>. Follow the specifications of your Display manufacturer. All users without a HDR supported Display should set this to <h>Rec.709</>.\r\n\r\n<b>Default Value: Rec.709</>"
+          ],
+          [
+            "DisplaySettings_Colors",
+            "Colors"
+          ],
+          [
+            "AudioSettings_AudioVolume",
+            "Audio Volume"
+          ],
+          [
+            "ControlsSettings_Movement",
+            "Movement"
+          ],
+          [
+            "ControlsSettings_Actions",
+            "Actions"
+          ],
+          [
+            "ControlSettings_PrimaryFire",
+            "Primary Fire"
+          ],
+          [
+            "ControlSettings_PrimaryFire_Subtext",
+            "Key/Button to <h>primary fire.</>"
+          ],
+          [
+            "ControlSettings_SecondaryFire_Subtext",
+            "Key/Button to <h>secondary fire.</>"
+          ],
+          [
+            "ControlSettings_SecondaryFire",
+            "Secondary Fire"
+          ],
+          [
+            "ControlSettings_AimWeapon",
+            "Aim Weapon"
+          ],
+          [
+            "ControlSettings_AimWeapon_SubText",
+            "Key/Button to <h>aim weapon.</>"
+          ],
+          [
+            "ControlsSettings_NextWeapon",
+            "Next Weapon"
+          ],
+          [
+            "ControlsSettings_NextWeapon_SubText",
+            "Key/Button to <h>change to the next weapon.</>"
+          ],
+          [
+            "ControlsSettings_PreviousWeapon_SubText",
+            "Key/Button to <h>change to the previous weapon.</>"
+          ],
+          [
+            "ControlsSettings_Reload",
+            "Reload"
+          ],
+          [
+            "ControlsSettings_Reload_SubText",
+            "Key/Button to <h>reload.</>"
+          ],
+          [
+            "ControlsSettings_Jump",
+            "Jump"
+          ],
+          [
+            "ControlsSettings_Jump_SubText",
+            "Key/Button to <h>Jump.</>"
+          ],
+          [
+            "ControlsSettings_Crouch",
+            "Crouch"
+          ],
+          [
+            "ControlsSettings_Crouch_SubText",
+            "Key/Button to <h>crouch.</>"
+          ],
+          [
+            "ControlsSettings_Sprint",
+            "Sprint"
+          ],
+          [
+            "ControlsSettings_Inventory",
+            "Inventory"
+          ],
+          [
+            "ControlsSettings_Sprint_SubText",
+            "Key/Button to <h>sprint.</>"
+          ],
+          [
+            "ControlsSettings_PreviousWeapon",
+            "Previous Weapon"
+          ],
+          [
+            "ControlsSettings_Inventory_SubText",
+            "Key/Button to <h>open inventory.</>"
+          ],
+          [
+            "ControlsSettings_Controller",
+            "Controller"
+          ],
+          [
+            "ControlsSettings_Camera",
+            "Camera"
+          ],
+          [
+            "ControlsSettings_ControllerType_SubText",
+            "Switch between different <h>UI icons</> based on Controller Type.\r\n\r\n<b>Default Value: Xbox</>"
+          ],
+          [
+            "ControlsSettings_InvertSticks",
+            "Invert Sticks"
+          ],
+          [
+            "ControlsSettings_InvertSticks_SubText",
+            "<h>Switches Left and Right Stick.</> By default the Left Stick is used for movement and the Right Stick moves the camera.\r\n\r\n<b>Default Value: Off</>"
+          ],
+          [
+            "GraphicsSettings_Quality",
+            "Quality"
+          ],
+          [
+            "GameplaySettings_Gameplay",
+            "Gameplay"
+          ],
+          [
+            "MultiplayerSettings_Multiplayer",
+            "Multiplayer"
+          ],
+          [
+            "AudioSettings_EnableVoiceChat",
+            "Enable Voice Chat"
+          ],
+          [
+            "AudioSettings_EnableVoiceChat_SubText",
+            "Enable <h>voice chat communication in multiplayer sessions.</> You will not be able to hear other players if this is turned off.\r\n\r\n<b>Default Value: Off</>"
+          ],
+          [
+            "ServerBrowser_RefreshServerList",
+            "Refresh Server List"
+          ],
+          [
+            "ServerBrowser_Ping",
+            "Ping"
+          ],
+          [
+            "DecisionDialog_Cancel",
+            "Cancel"
+          ],
+          [
+            "DecisionDialog_SavedGameInfo",
+            "The Game has been saved."
+          ],
+          [
+            "DecisionDialog_SaveGameTitle",
+            "Save Game"
+          ],
+          [
+            "DecisionDialog_SaveOverrideProgress",
+            "There is a game already saved in this slot. Overwrite saved data?"
+          ],
+          [
+            "GraphicsSettings_ShadingQuality",
+            "Shading Quality"
+          ],
+          [
+            "GraphicsSettings_ShadingQuality_Subtext",
+            "Set <h>Shading Quality.</> A higher value increases the quality of Shaders and results in e.g. higher quality Hair."
+          ],
+          [
+            "GraphicsSettings_FSR2",
+            "FidelityFX Super Resolution 2"
+          ],
+          [
+            "GraphicsSettings_FSR2_SubText",
+            "Sets the quality of FidelityFX Super Resolution 2 (FSR2). Uses a temporal upscaling algorithm to render highly detailed images using fewer pixels, boosting your frame rates so you can maximize your graphics settings and output resolution. <h>Compatible with most modern GPUs including AMD, Intel and NVIDIA cards.</>"
+          ],
+          [
+            "GraphicsSettings_ResolutionHeader",
+            "Resolution"
+          ],
+          [
+            "DisplaySettings_AspectRatio",
+            "Aspect Ratio"
+          ],
+          [
+            "DisplaySettings_AspectRatio_Subtext",
+            "Set the aspect ratio. This will filter all available Display Resolutions.  <h>Borderless Window Mode</> will always use the aspect ratio of the highest resolution supported by your Display."
+          ],
+          [
+            "DisplaySettings_Tritanope",
+            "Tritanope"
+          ],
+          [
+            "DecisionDialog_QuitGame",
+            "Quit Game"
+          ],
+          [
+            "DecisionDialog_OptionQuit",
+            "Quit"
+          ],
+          [
+            "DecisionDialog_OptionCancel",
+            "Cancel"
+          ],
+          [
+            "DecisionDialog_OptionRebind",
+            "Rebind"
+          ],
+          [
+            "DecisionDialog_TextRebind",
+            "is already in use by <h>{InputActionDisplayName}</>. Are you sure you want to replace it?"
+          ],
+          [
+            "DecisionDialog_TitleRebind",
+            "Rebind Key"
+          ],
+          [
+            "DecisionDialog_OptionRevert",
+            "Revert"
+          ],
+          [
+            "ControlsSettings_Bindings_PushToTalk",
+            "Push To Talk"
+          ],
+          [
+            "ControlsSettings_Bindings_PushToTalk_Subtext",
+            "Key/Button to <h>talk in voice chat.</>"
+          ],
+          [
+            "ControlsSettings_Bindings_Look",
+            "Look"
+          ],
+          [
+            "AudioSettings_OutputDevice",
+            "Output Device"
+          ],
+          [
+            "AudioSettings_OutputDevice_Subtext",
+            "Set the <h>Audio Output Device</> that is used for all game sound."
+          ],
+          [
+            "DisplaySettings_ColorDeficiencyType",
+            "Color Deficiency Type"
+          ],
+          [
+            "DisplaySettings_ColorDeficiencyType_Subtext",
+            "Set a Color Deficiency Type (also refered to as Color Blindness). This will change all colors of the game and UI."
+          ],
+          [
+            "DisplaySettings_ColorDeficiencyStrength",
+            "Color Deficiency Strength"
+          ],
+          [
+            "DisplaySettings_ColorDeficiencyStrength_Subtext",
+            "Set how much the Color Deficiency Type should influence the colors of game and UI."
+          ],
+          [
+            "Multiplayer_Searching",
+            "Searching..."
+          ],
+          [
+            "Multiplayer_FoundServers",
+            "Found Servers:"
+          ],
+          [
+            "Multiplayer_StartGame",
+            "Start Game"
+          ],
+          [
+            "Level_MoonTown",
+            "MoonTown"
+          ],
+          [
+            "Level_MoonTown_Subtext",
+            "In Moon Town, the streets are bathed in silver light and secrets lurk in every shadow. It's a place where magic and mystery collide, beckoning the curious and daring to explore its enchanting depths."
+          ],
+          [
+            "ControlsSettings_Controls",
+            "Controls"
+          ],
+          [
+            "ControlsSettings_Bindings_Documents",
+            "Documents"
+          ],
+          [
+            "ControlsSettings_Bindings_Documents_Subtext",
+            "Key/Button to <h>open the documents menu.</>"
+          ],
+          [
+            "SingleplayerMenu_Singleplayer",
+            "Singleplayer"
+          ],
+          [
+            "ServerBrowser_ToggleLAN",
+            "Toggle LAN"
+          ],
+          [
+            "Credits_HoldToSkip",
+            "Hold any key to skip"
+          ],
+          [
+            "GraphicsSettings_GlobalIlluminationMethod",
+            "Global Illumination Method"
+          ],
+          [
+            "GraphicsSettings_GlobalIlluminationMethod_Subtext",
+            "Global Illumination <h>simulates the way light bounces and interacts with surfaces</> in a realistic manner. \r\n\r\nNone: No indirect lighting.\r\nScreen Space: High performance global illumination.\r\nLumen: High quality real-time global illumination."
+          ],
+          [
+            "GraphicsSettings_Lumen",
+            "Lumen"
+          ],
+          [
+            "GraphicsSettings_ScreenSpace",
+            "Screen Space"
+          ],
+          [
+            "GraphicsSettings_None",
+            "None"
+          ],
+          [
+            "GraphicsSettings_ReflectionMethod",
+            "Reflection Method"
+          ],
+          [
+            "GraphicsSettings_ReflectionMethod_Subtext",
+            "Affects the quality and complexity of <h>real-time reflections</> in a game's environment.\r\n\r\nNone: Reflections are turned off.\r\nScreen Space: Reflections are based only on what is visible on-screen.\r\nLumen: Accurate real-time reflections."
+          ]
+        ]
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ST_Menu",
+      "OuterIndex": 0,
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -3,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 25251,
+      "SerialOffset": 684,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": true,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -3
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": "AAAAAA=="
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -8,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "StringTable",
+      "OuterIndex": -2,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__StringTable",
+      "OuterIndex": -2,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 8
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/MenuSystemPro/ExampleContent/Text/Menu/ST_Menu",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 476,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 2,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_Cooked, PKG_UnversionedProperties, PKG_FilterEditorOnly",
+  "HasUnversionedProperties": true,
+  "IsFilterEditorOnly": true
+}
